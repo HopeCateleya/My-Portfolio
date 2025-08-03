@@ -3,107 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Dev Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
 </head>
 <body>
-    <div id="container">
-        <!-- Nav Bar -->
-        <div id="hero-section">
-            <nav id="nav">
-                <h1>*Hope*Cateleya*</h1>
-                <ul>
-                    <li>Home</li>
-                    <li>Project</li>
-                    <li>Programming language</li>
-                    <li>About</li>
-                    <li>Contact us</li>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><i class="fas fa-code"></i>HopeDevPortfolio</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <!-- Main -->
-            
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
             <div class="hero">
-                <!-- left -->
+                <h1>Hello, I'm Hope</h1>
+                <p>Hey there! I’m a curious coder who loves turning crazy ideas into interactive, real-world applications. Whether it’s designing smooth user interfaces or building rock-solid backend systems, I make sure every project feels magical.</p>
                 <div>
-                    <h1>Welcome to my Portfolio</h1>
-                    <h3>I'm Hope Cateleya A Software Engineer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corrupti dolores cumque nihil modi, perferendis enim error quibusdam ex minus dolorum magnam quos! Corporis distinctio cumque ducimus tempora quas iure.</p>
-                    <button>Explore Services</button>
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
             </div>
         </div>
-        <!-- project -->
-         <div>
-            <h1>Projects</h1>
-            <div id="project-container">
-                <!-- project 1 -->
-                 <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-                  <div class="box">
-                    <img src="./background.PNG" alt="">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga consequuntur accusamus deleniti quod corporis illum iusto quisquam sed placeat ex voluptates at ipsam totam animi, est quae repudiandae commodi?</p>
-                 </div>
-            </div>
-         </div>
-        <!-- Contact  -->
-         <section id="contact">
-                <h1>For more inquiry</h1>
-        
-                <form action="">
-                <fieldset>
-                    <legend>Contact us</legend>
-                        <label for="name">Full Name:</label>
-                        <input type="text"/>
-                        <br/><br/>
-                        <label for="email">Email:</label>
-                        <input type="email" placeholder="youremail@gmail.com"/>
-                        <br/><br/>
-                        <label for="phone no.">Phone no:</label>
-                        <input type="text"/>
-                        <br/>
-                        <button id="submit" type="submit" value="Send">Send</button>
-                    </fieldset>
-                </form>
-            </section>
+    </section>
 
-            <!-- footer -->
-             <footer>
-                <small>Copyright &copy; 2025 Hope Catleya. All rights reserved</small>
-             </footer>
-    </div>
+    <!-- Programming Languages Section -->
+    <section id="languages">
+        <div class="container">
+            <h2>Programming Languages</h2>
+            <div class="languages-grid">
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-square-root-alt"></i>
+                    </div>
+                    <h3>MATLAB</h3>
+                    <p>Data analysis, engineering simulations, and algorithm development</p>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Django, Flask, data analysis, and automation</p>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and accessible web design</p>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Responsive layouts and modern CSS techniques</p>
+                </div>
+                <div class="language-card">
+                    <div class="language-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Database design and optimization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online store with payment processing, user accounts, and inventory management.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Mobile application for tracking workouts, nutrition, and progress with personalized recommendations.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Blogging Platform</h3>
+                        <p>Content management system for writers with rich text editing and social sharing features.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="./res/image.jpg" alt="Developer Portrait" />
+                </div>
+                <div class="about-text">
+                    <h3>Full Stack Developer</h3>
+                    <p>Hello! I’m Hope, an Aerospace Engineering graduate with 3 years of experience in Python programming, SQL query languages, and MATLAB development. I enjoy turning complex problems into clear, efficient solutions that make an impact.</p> <p>My work spans from engineering simulations to building data-driven applications, always with a focus on accuracy, performance, and usability. I believe in writing clean, maintainable code and continuously improving my craft.</p> <p>Outside of coding, I’m passionate about exploring new technologies, learning about the latest in aerospace innovations, and contributing to open-source projects.</p>
+                    
+                    <div class="skills">
+                        <span class="skill">Frontend Development</span>
+                        <span class="skill">Backend Development</span>
+                        <span class="skill">UI/UX Design</span>
+                        <span class="skill">Database Design</span>
+                        <span class="skill">API Integration</span>
+                        <span class="skill">DevOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Orchid lekki, Lagos</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>lekoste217@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+234 (810) 571-8754</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Availability</h4>
+                            <p>Monday-Friday: 9am - 5pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Enter subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2023 Dev Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
